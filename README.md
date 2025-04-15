@@ -25,7 +25,7 @@ Next, I used BeautifulSoup to scrape the web for used car prices on each make an
 
 I used pandas' `.merge()` function to merge car models from the fuel economy data with dealership listings that were scraped off the web.
 
-### 4. Ranking & sensitivity analysis
+### 4. Ranking & Multi-Attribute Decision Analysis
 
 Finally, I ranked the factors according to their importance—fuel efficiency being the most important, followed by price at a close second. I looked at the top ten results, their factors, and yes—their appearances because I'm shallow at heart, then decided which one I'd be buying.
 
