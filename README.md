@@ -19,15 +19,17 @@ Low-seated sedans make me carsick, and trucks are too expensive, so SUVs are my 
 
 I also wanted a fuel-efficient vehicle with a decent MPG, so I narrowed the search further to only include SUVs with a combined city/highway MPG of 23 or higher.
 
+Finally, I wanted to ensure the vehicle I would be driving is safe. I took crash test data from NHTSA, fatality rates from HLDI, and insurance loss records from IIHS.
+
 ### 3. Web Scraping
 
 Next, I used BeautifulSoup to scrape the web for used car prices on each make and model that matched the previous parameters. I had to make sure the cars were nearby so I could actually pick it up, which added a slight obstacle.
 
 I used pandas' `.merge()` function to merge car models from the fuel economy data with dealership listings that were scraped off the web.
 
-### 4. Ranking & sensitivity analysis
+### 4. Ranking & Multi-Attribute Decision Analysis
 
-Finally, I ranked the factors according to their importance—fuel efficiency being the most important, followed by price at a close second. I looked at the top ten results, their factors, and yes—their appearances because I'm shallow at heart, then decided which one I'd be buying.
+Finally, I ranked the factors according to their importance—fuel efficiency being the most important, followed by price at a close second, and then safety in third (although still heavily considered). I looked at the top fifteen results, their factors, and yes—their appearances because I'm shallow at heart, then decided which one I'd be buying.
 
 Pretty simple car buying process, am I right?
 
@@ -40,6 +42,18 @@ I couldn't let this hard work go to waste, so I made an interactive dashboard th
 FuelEconomy.gov Web Services
 
 <https://www.fueleconomy.gov/feg/ws/>
+
+## Safety Data Sources  
+
+National Highway Traffic Safety Administration Datasets and APIs
+
+<https://www.nhtsa.gov/nhtsa-datasets-and-apis#ratings/>
+
+Insurance Institute for Highway Safety (IIHS) & Highway Loss Data Institute (HLDI)
+
+<https://www.iihs.org/ratings/driver-death-rates-by-make-and-model/>
+
+<https://www.iihs.org/topics/auto-insurance/insurance-losses-by-make-and-model/>
 
 
 *Disclaimer: Parts of this program were made with the assistance of generative AI. All generated code has been marked within the script files.*  
