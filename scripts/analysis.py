@@ -1,26 +1,27 @@
 import pandas as pd
-from pathlib import Path
 import get_data
 
-kbb_df = get_data.find("kbb_data.csv")
+safety_df = get_data.find("cleaned_NHTSA.csv")
 fuel_df = get_data.find("cleaned_fuelEcon.csv")
 
-# Exit early if either failed to load
-if kbb_df is None or fuel_df is None:
+if safety_df is None or fuel_df is None:
+    print("Whoops! Couldn't find the files you were looking for. Please check the names and try again.")
     exit()
 
 # ========================== STANDARDIZATION ==========================
 # Double-checking the field names to see what I can use as the key to merge the two datasets
     # Comment out after
-# print(kbb_df.columns)
+# print(safety_df.columns)
 # print(fuel_df.columns)
 
 # make the key that is needed to merge the fields
-kbb_df['car_key'] = kbb_df['year'].astype(str) + '_' + kbb_df['make'] + '_' + kbb_df['model']
+safety_df['car_key'] = safety_df['year'].astype(str) + '_' + safety_df['make'] + '_' + safety_df['model']
 fuel_df['car_key'] = fuel_df['year'].astype(str) + '_' + fuel_df['make'] + '_' + fuel_df['model']
 
-merged = pd.merge(kbb_df, fuel_df, on='car_key', how='left')
+merged = pd.merge(safety_df, fuel_df, on='car_key', how='left')
+# print(merged)
 
+"""
 # making sure only one of each column remains
 merged['year'] = merged['year_y']
 merged = merged.drop(columns=['year_x', 'year_y'])
@@ -75,3 +76,4 @@ print(merged[['price', 'mileage', 'comb08', 'Value_per_mile', 'MPG_per_dollar']]
 #
 # # Print the summary
 # print(summary)
+"""
