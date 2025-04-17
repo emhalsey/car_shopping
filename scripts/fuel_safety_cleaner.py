@@ -26,7 +26,7 @@ fuel_df['car_key'] =(
 # merging the fields on the new key
 merged_df = pd.merge(safety_df, fuel_df, on='car_key', how='outer')
 
-# deleting duplicate fields
+# deleting duplicate and unnecessary fields
 merged_df = merged_df.drop(columns = ['MAKE','MODEL','MODEL_YR'])
 
     # check if it worked (comment out after confirming)
