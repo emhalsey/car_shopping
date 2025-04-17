@@ -4,7 +4,7 @@ import get_data
 
 pd.set_option('display.max_columns', None)
 
-filtered_df = get_data.findclean("filtered_data.csv")
+filtered_df = get_data.find("filtered_govdata.csv")
 scraped_df = get_data.find("scraped_data.csv")
 
 if filtered_df is None or scraped_df is None:

@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 import get_data
 
-base_url = "https://cars.usnews.com/ajax/inventory/used-cars/search?range=50&price_max=25000&mileage_max=100000&used_checked=1&zip=13142&sort=0"
+base_url = "https://cars.usnews.com/ajax/inventory/used-cars/search?range=50&price_max=25000&mileage_max=90000&used_checked=1&zip=13142&sort=0"
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
@@ -12,7 +12,7 @@ headers = {
 }
 
 car_data = []
-total_pages = 500
+total_pages = 3
 
 for page_num in range(1, total_pages + 1):
     if page_num < 2:
@@ -56,11 +56,11 @@ for page_num in range(1, total_pages + 1):
             }
             car_data.append(info)
             # checking to make sure reading is correct
-            # print(info)
+            print(info)
 
 # convert to exportable dataframe
 df = pd.DataFrame(car_data)
 
 # export data to output folder
 scraped = get_data.export("data","scraped_data.csv")
-# df.to_csv(scraped, index=False)
+df.to_csv(scraped, index=False)

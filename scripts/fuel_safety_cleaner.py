@@ -4,7 +4,7 @@ import get_data
 pd.set_option('display.max_columns', None)
 
 safety_df = get_data.find("NHTSA.csv")
-fuel_df = get_data.find("vehicles.csv")
+fuel_df = get_data.find("fuelecon_data.csv")
 
 if safety_df is None or fuel_df is None:
     print("Whoops! Couldn't find the files you were looking for. Please check the spelling and try again.")
@@ -32,10 +32,6 @@ merged_df = merged_df.drop(columns = ['MAKE','MODEL','MODEL_YR'])
     # check if it worked (comment out after confirming)
 # print(merged_df)
 
-    # export merged data to output folder to check the output
-# checker = get_data.export("output","merged_data.csv")
-# merged_df.to_csv(checker, index=False)
-
 # ========================== FILTERING ==========================
 merged_df = merged_df[
     (merged_df['DRIVE_TRAIN'].str.contains(r"\bAWD\b|\b4WD\b|\b4x4\b", case=False, na=False)) &
@@ -58,5 +54,5 @@ if not all(col in merged_df.columns for col in expected_columns):
     exit()
 
     # export cleaned data to output folder
-# filtered = get_data.export("output","filtered_data.csv")
-# merged_df.to_csv(filtered, index=False)
+filtered = get_data.export("data","filtered_govdata.csv")
+merged_df.to_csv(filtered, index=False)
