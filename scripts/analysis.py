@@ -1,47 +1,36 @@
 import pandas as pd
+
 import get_data
 
-df = get_data.find("filtered_data.csv")
-"""
-# ========================== ANALYSIS ==========================
-# Ensure numeric fields are actually numeric (in case they came in as strings)
-df['price'] = pd.to_numeric(df['price'], errors='coerce')
-df['mileage'] = pd.to_numeric(df['mileage'], errors='coerce')
-df['comb08'] = pd.to_numeric(df['comb08'], errors='coerce')
+pd.set_option('display.max_columns', None)
 
-# Create calculated columns
-df['Value_per_mile'] = df['price'] / df['mileage']
-df['MPG_per_dollar'] = df['comb08'] / df['price']
+filtered_df = get_data.findclean("filtered_data.csv")
+scraped_df = get_data.find("scraped_data.csv")
 
-# Double-checking the field names AGAIN (comment out after confirming)
-# print("Merged Columns:", df.columns)
+if filtered_df is None or scraped_df is None:
+    print("Whoops! Couldn't find the files you were looking for. Please check the spelling and try again.")
+    exit()
 
-# Check how many missing values are in key columns
-missing_data = df[['price', 'mileage', 'comb08']].isnull().sum()
-print("Missing Values in Each Column:")
-print(missing_data)
+# ========================== STANDARDIZATION ==========================
+    # check field names to see what you can use as a key
 
-# Drop rows with NaN values in key columns, or handle them differently
-df = df.dropna(subset=['price', 'mileage', 'comb08'])
+# make a merged column to act as the key
+filtered_df['new_key'] =(
+        filtered_df['year'].map(str) + ' ' + filtered_df['baseModel'].map(str.upper))
+scraped_df['new_key'] =(
+        scraped_df['year'].map(str) + ' ' + scraped_df['model'].map(str.upper))
 
-# Show a preview of the cleaned data
-print(df[['price', 'mileage', 'comb08', 'Value_per_mile', 'MPG_per_dollar']].head(20))
+    # check the field names to see if it worked (comment out after confirming)
+# print(filtered_df.columns)
+# print(scraped_df.columns)
 
-# # Group by 'model' and aggregate the data
-# summary = df.groupby('model').agg({
-#     'price': 'mean',
-#     'mileage': 'mean',
-#     'comb08': 'mean',
-#     'Value_per_mile': 'mean',
-#     'MPG_per_dollar': 'mean'
-# }).rename(columns={
-#     'price': 'AVG Price',
-#     'mileage': 'AVG Mileage',
-#     'comb08': 'AVG Combined MPG',
-#     'Value_per_mile': 'AVG Value_per_mile',
-#     'MPG_per_dollar': 'AVG MPG_per_dollar'
-# }).sort_values('AVG MPG_per_dollar', ascending=False)
-#
-# # Print the summary
-# print(summary)
-"""
+# merging the fields on the new key
+merged_df = pd.merge(filtered_df, scraped_df, on='new_key', how='outer')
+
+# deleting duplicate fields
+merged_df = (merged_df.drop(columns = ['year_y','baseModel'])
+             .sort_values(['OVERALL_STARS','price','mileage'], ascending=[False,True,True]))
+
+# export data to output folder
+final = get_data.export("output","final_data.csv")
+merged_df.to_csv(final, index=False)
