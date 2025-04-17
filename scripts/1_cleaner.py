@@ -30,7 +30,10 @@ merged_df = pd.merge(safety_df, fuel_df, on='car_key', how='outer')
 # deleting duplicate and unnecessary fields
 merged_df = merged_df.drop(
     columns=[
-        'MAKE', 'MODEL', 'MODEL_YR',
+        'MAKE', 'MODEL', 'MODEL_YR','VEHICLE_CLASS',
+        'PRODUCTION_RELEASE',
+        'BODY_FRAME',
+        'SEAT_LOC',
         'SEAT_LOC_COMMENTS',
         'MIN_GROSS_WEIGHT',
         'MAX_GROSS_WEIGHT',
@@ -185,6 +188,10 @@ merged_df = merged_df.drop(
         'id',
         'lv2',
         'lv4',
+        'displ',
+        'drive',
+        'engId',
+        'mpgData',
         'phevBlended',
         'pv2',
         'pv4',
@@ -204,6 +211,7 @@ merged_df = merged_df.drop(
         'fuelType2',
         'rangeA',
         'evMotor',
+        'mfrCode',
         'c240Dscr',
         'charge240b',
         'c240bDscr',
