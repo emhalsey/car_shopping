@@ -47,6 +47,7 @@ for page_num in range(1, total_pages + 1):
         if 2017 <= year <= 2024 and body_style in ["suv", "hatchback"]:
             info = {
                 'year': car.get("year", "N/A"),
+                'make': car.get('make', 'N/A'),
                 'model': car.get('model', 'N/A'),
                 'body_style': car.get('body_style', 'N/A'),
                 'price': car.get("price", "N/A"),

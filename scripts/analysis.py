@@ -16,9 +16,9 @@ if filtered_df is None or scraped_df is None:
 
 # make a merged column to act as the key
 filtered_df['new_key'] =(
-        filtered_df['year'].map(str) + ' ' + filtered_df['baseModel'].map(str.upper))
+        filtered_df['year'].map(int).map(str) + ' ' + filtered_df['baseModel'].map(str.upper))
 scraped_df['new_key'] =(
-        scraped_df['year'].map(str) + ' ' + scraped_df['model'].map(str.upper))
+        scraped_df['year'].map(int).map(str) + ' ' + scraped_df['model'].map(str.upper))
 
     # check the field names to see if it worked (comment out after confirming)
 # print(filtered_df.columns)
@@ -28,7 +28,7 @@ scraped_df['new_key'] =(
 merged_df = pd.merge(filtered_df, scraped_df, on='new_key', how='outer')
 
 # deleting duplicate fields
-merged_df = (merged_df.drop(columns = ['year_y','baseModel'])
+merged_df = (merged_df.drop(columns = ['year_x','baseModel'])
              .sort_values(['OVERALL_STARS','price','mileage'], ascending=[False,True,True]))
 
 # export data to output folder
