@@ -27,7 +27,23 @@ fuel_df['car_key'] =(
 merged_df = pd.merge(safety_df, fuel_df, on='car_key', how='outer')
 
 # deleting duplicate and unnecessary fields
-merged_df = merged_df.drop(columns = ['MAKE','MODEL','MODEL_YR'])
+merged_df = merged_df.drop(
+    columns = [
+    'MAKE', 'MODEL','MODEL_YR',
+    'SEAT_LOC_COMMENTS',
+    'MIN_GROSS_WEIGHT',
+    'MAX_GROSS_WEIGHT',
+    'UPPER_BELT_ANCHORAGE',
+    'UPPER_BELT_ANCHORAGE_LOC',
+    'SEAT_BELT_PRETENSIONER',
+    'SEAT_BELT_PRETENSIONER_LOC',
+    'LOAD_LIMITERS',
+    'LOAD_LIMITERS_LOC',
+    'FRNT_BELT_INDICATOR',
+    'FRNT_BELT_LOC',
+    'REAR_BELT_INDICATOR',
+    'LATCH_REAR_POSITION'
+    ])
 
     # check if it worked (comment out after confirming)
 # print(merged_df)
