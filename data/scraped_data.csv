@@ -1,0 +1,1156 @@
+year,make,model,body_style,price,mileage,city
+2018,Chevrolet,Trax,SUV,13999.0,35714.0,Wolcott
+2018,Ford,Escape,SUV,16900.0,19985.0,Central Square
+2018,Jeep,Compass,SUV,16995.0,36936.0,Fayetteville
+2018,Nissan,Rogue,SUV,18499.0,50662.0,Syracuse
+2018,Mazda,CX-3,SUV,18600.0,55044.0,Cicero
+2018,Mazda,CX-5,SUV,19669.0,64913.0,Cicero
+2018,Subaru,Forester,SUV,19995.0,52407.0,Syracuse
+2018,Mazda,CX-5,SUV,21260.0,47245.0,Cicero
+2018,Subaru,Forester,SUV,21499.0,15907.0,Syracuse
+2018,Subaru,Forester,SUV,21999.0,45448.0,Syracuse
+2017,Ford,Explorer,SUV,21995.0,40080.0,Rome
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool
+2024,Chevrolet,Trax,SUV,22495.0,16147.0,Oswego
+2024,Chevrolet,Equinox,SUV,23999.0,17937.0,Chittenango
+2024,Mazda,CX-30,SUV,24738.0,19264.0,Watertown
+2023,Chevrolet,Bolt EUV,SUV,17588.0,29461.0,Pulaski
+2023,Chevrolet,Trailblazer,SUV,21899.0,29246.0,Watertown
+2023,Nissan,Rogue,SUV,22300.0,37318.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,22815.0,45407.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,22999.0,5851.0,Chittenango
+2023,Nissan,Rogue,SUV,23126.0,31368.0,Watertown
+2023,Chevrolet,Equinox,SUV,23994.0,34037.0,Liverpool
+2023,Chevrolet,Trailblazer,SUV,23998.0,19462.0,Liverpool
+2023,Chevrolet,Equinox,SUV,23999.0,9911.0,Chittenango
+2023,Chevrolet,Equinox,SUV,24049.0,34137.0,Watertown
+2023,Chevrolet,Trailblazer,SUV,24188.0,33514.0,Pulaski
+2023,Chevrolet,Equinox,SUV,24848.0,26603.0,Liverpool
+2023,Toyota,Corolla Cross,SUV,24994.0,41285.0,Liverpool
+2022,Kia,Soul,Hatchback,19794.0,29019.0,Central Square
+2022,Jeep,Renegade,SUV,19795.0,22761.0,Watertown
+2022,Mitsubishi,Outlander,SUV,19888.0,49138.0,Pulaski
+2022,Chevrolet,Equinox,SUV,19995.0,48647.0,Clayton
+2022,Jeep,Renegade,SUV,19995.0,37723.0,Auburn
+2022,Volkswagen,Taos,SUV,20418.0,43868.0,Liverpool
+2022,Chevrolet,Equinox,SUV,20989.0,44611.0,Liverpool
+2022,Honda,HR-V,SUV,20995.0,56776.0,Auburn
+2022,Jeep,Renegade,SUV,21083.0,57786.0,Watertown
+2022,Chevrolet,Equinox,SUV,21587.0,36262.0,Liverpool

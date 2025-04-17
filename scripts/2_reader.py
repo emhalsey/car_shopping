@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 import get_data
 
-base_url = "https://cars.usnews.com/ajax/inventory/used-cars/search?range=50&price_max=25000&mileage_max=90000&used_checked=1&zip=13142&sort=0"
+base_url = "https://cars.usnews.com/ajax/inventory/used-cars/search?range=50&price_max=25000&mileage_max=65000&used_checked=1&zip=13142&sort=0"
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
@@ -12,7 +12,7 @@ headers = {
 }
 
 car_data = []
-total_pages = 3
+total_pages = 1000
 
 for page_num in range(1, total_pages + 1):
     if page_num < 2:
