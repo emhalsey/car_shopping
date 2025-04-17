@@ -1,66 +1,34 @@
 import pandas as pd
 import get_data
 
-safety_df = get_data.find("cleaned_NHTSA.csv")
-fuel_df = get_data.find("cleaned_fuelEcon.csv")
-
-if safety_df is None or fuel_df is None:
-    print("Whoops! Couldn't find the files you were looking for. Please check the names and try again.")
-    exit()
-
-# ========================== STANDARDIZATION ==========================
-# Double-checking the field names to see what I can use as the key to merge the two datasets
-    # Comment out after
-# print(safety_df.columns)
-# print(fuel_df.columns)
-
-# make the key that is needed to merge the fields
-safety_df['car_key'] = safety_df['year'].astype(str) + '_' + safety_df['make'] + '_' + safety_df['model']
-fuel_df['car_key'] = fuel_df['year'].astype(str) + '_' + fuel_df['make'] + '_' + fuel_df['model']
-
-merged = pd.merge(safety_df, fuel_df, on='car_key', how='left')
-# print(merged)
-
+df = get_data.find("filtered_data.csv")
 """
-# making sure only one of each column remains
-merged['year'] = merged['year_y']
-merged = merged.drop(columns=['year_x', 'year_y'])
-
-merged['make'] = merged['make_y']
-merged = merged.drop(columns=['make_x', 'make_y'])
-
-merged['model'] = merged['model_y']
-merged = merged.drop(columns=['model_x', 'model_y'])
-
-# Double-checking the field names (comment out after confirming)
-# print("Merged Columns:", merged.columns)
-
 # ========================== ANALYSIS ==========================
 # Ensure numeric fields are actually numeric (in case they came in as strings)
-merged['price'] = pd.to_numeric(merged['price'], errors='coerce')
-merged['mileage'] = pd.to_numeric(merged['mileage'], errors='coerce')
-merged['comb08'] = pd.to_numeric(merged['comb08'], errors='coerce')
+df['price'] = pd.to_numeric(df['price'], errors='coerce')
+df['mileage'] = pd.to_numeric(df['mileage'], errors='coerce')
+df['comb08'] = pd.to_numeric(df['comb08'], errors='coerce')
 
 # Create calculated columns
-merged['Value_per_mile'] = merged['price'] / merged['mileage']
-merged['MPG_per_dollar'] = merged['comb08'] / merged['price']
+df['Value_per_mile'] = df['price'] / df['mileage']
+df['MPG_per_dollar'] = df['comb08'] / df['price']
 
 # Double-checking the field names AGAIN (comment out after confirming)
-# print("Merged Columns:", merged.columns)
+# print("Merged Columns:", df.columns)
 
 # Check how many missing values are in key columns
-missing_data = merged[['price', 'mileage', 'comb08']].isnull().sum()
+missing_data = df[['price', 'mileage', 'comb08']].isnull().sum()
 print("Missing Values in Each Column:")
 print(missing_data)
 
 # Drop rows with NaN values in key columns, or handle them differently
-merged = merged.dropna(subset=['price', 'mileage', 'comb08'])
+df = df.dropna(subset=['price', 'mileage', 'comb08'])
 
 # Show a preview of the cleaned data
-print(merged[['price', 'mileage', 'comb08', 'Value_per_mile', 'MPG_per_dollar']].head(20))
+print(df[['price', 'mileage', 'comb08', 'Value_per_mile', 'MPG_per_dollar']].head(20))
 
 # # Group by 'model' and aggregate the data
-# summary = merged.groupby('model').agg({
+# summary = df.groupby('model').agg({
 #     'price': 'mean',
 #     'mileage': 'mean',
 #     'comb08': 'mean',
