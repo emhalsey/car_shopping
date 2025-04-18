@@ -27,23 +27,21 @@ Next, I found a JSON endpoint API on US News to pull data from, avoiding the nee
 
 I used the pandas `.merge()` function to merge car models from the fuel economy data with dealership listings that were scraped off the web.
 
-### 4. Ranking & Multi-Attribute Decision Analysis
+### 4. Multi-Attribute Decision Making (MADM) Analysis
 
-Finally, I ranked the factors according to their importance—saftey rating being the most important, followed by value per mile (price/mileage) second, then mpg third. I looked at the top 20 results, their factors, and yes—their appearances because I'm shallow at heart, then decided which one I'd be buying.
+Finally, I used a MADM to rank the cars according to my wants and needs. I looked at the top 10 results, their factors, and yes—their appearances because I'm shallow at heart, then decided which one I'd be buying.
 
 Pretty simple car buying process, am I right?
 
 ### 5. Visualization
 
-I couldn't let this hard work go to waste, so I made an interactive dashboard that could go on my portfolio and look pretty. I let the user filter by the various factors and displayed top picks, trends, or trade-offs that came with each model.
+To make it easier to understand and interpret the results, I exported a neat table and bar chart on top of the `.csv` data. 
 
-## Vehicle Data Source  
+## Data Sources  
 
 FuelEconomy.gov Web Services
 
 <https://www.fueleconomy.gov/feg/ws/>
-
-## Safety Data Sources  
 
 National Highway Traffic Safety Administration Datasets and APIs
 
