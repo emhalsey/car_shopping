@@ -17,11 +17,7 @@ if filtered_df is None or agg_df is None:
 # merging the fields on the new key
 merged_df = pd.merge(filtered_df, agg_df, on='car_key', how='outer')
 
-# deleting duplicate & unnecessary fields
-merged_df = (merged_df.drop(
-    columns=['make', 'model', 'year','baseModel','VClass','guzzler',
-             'Nr_Available','BODY_STYLE','VEHICLE_TYPE','DRIVE_TRAIN','fuelType','trany']))
-
+# only keeping necessary fields
 merged_df = merged_df[[
     'car_key',
     'OVERALL_STARS',
@@ -93,7 +89,7 @@ ranked_cars = ranked_cars.sort_values(by='utility_score', ascending=False)
 
 # export data to output folder
 final = get_data.export("output","ranked.csv")
-# ranked_cars.to_csv(final, index=False)
+ranked_cars.to_csv(final, index=False)
 
 # ========================== VISUALIZATION ==========================
 import seaborn as sns
@@ -117,7 +113,7 @@ plt.tight_layout()
 
 # export graph to output folder
 barchart = get_data.export("output","ranked.png")
-# plt.savefig(barchart)
+plt.savefig(barchart)
 
 # table ==========================
 fig, ax = plt.subplots(figsize=(23,5))
