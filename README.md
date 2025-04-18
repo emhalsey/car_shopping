@@ -49,13 +49,6 @@ National Highway Traffic Safety Administration Datasets and APIs
 
 <https://www.nhtsa.gov/nhtsa-datasets-and-apis#ratings/>
 
-Insurance Institute for Highway Safety (IIHS) & Highway Loss Data Institute (HLDI)
-
-<https://www.iihs.org/ratings/driver-death-rates-by-make-and-model/>
-
-<https://www.iihs.org/topics/auto-insurance/insurance-losses-by-make-and-model/>
-
-
 *Disclaimer: Parts of this program were made with the assistance of generative AI. All generated code has been marked within the script files.*  
 
 <https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/>
