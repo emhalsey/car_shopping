@@ -18,7 +18,9 @@ if filtered_df is None or agg_df is None:
 merged_df = pd.merge(filtered_df, agg_df, on='car_key', how='outer')
 
 # deleting duplicate & unnecessary fields
-merged_df = (merged_df.drop(columns=['make', 'model', 'year','baseModel','VClass','guzzler']))
+merged_df = (merged_df.drop(
+    columns=['make', 'model', 'year','baseModel','VClass','guzzler',
+             'Nr_Available','BODY_STYLE','VEHICLE_TYPE','DRIVE_TRAIN','fuelType','trany']))
 
 merged_df = merged_df[[
     'car_key',
@@ -29,13 +31,7 @@ merged_df = merged_df[[
     'Avg_Price',
     'Avg_Mileage',
     'youSaveSpend',
-    'Nr_Available',
-    'BODY_STYLE',
-    'VEHICLE_TYPE',
-    'DRIVE_TRAIN',
     'cylinders',
-    'fuelType',
-    'trany',
     'ROLLOVER_POSSIBILITY',
     'ROLLOVER_STARS']]
 
@@ -101,7 +97,7 @@ ranked_cars = ranked_cars.sort_values(by='utility_score', ascending=False)
 
 # export data to output folder
 final = get_data.export("output","ranked.csv")
-ranked_cars.to_csv(final, index=False)
+# ranked_cars.to_csv(final, index=False)
 
 # ========================== VISUALIZATION ==========================
 import seaborn as sns
@@ -111,8 +107,9 @@ import matplotlib.pyplot as plt
 ranked_cars = ranked_cars.dropna(subset=['car_key', 'utility_score'])
 ranked_cars = ranked_cars.drop_duplicates(subset=['car_key'])
 
-top_cars = ranked_cars.head(10)
+top_cars = ranked_cars.head(10).round(1)
 
+# bar graph ==========================
 plt.figure(figsize=(12,6))
 sns.barplot(data=top_cars, x='car_key', y='utility_score')
 plt.title('Top 10 Cars by Utility Score')
@@ -124,4 +121,23 @@ plt.tight_layout()
 
 # export graph to output folder
 barchart = get_data.export("output","ranked.png")
-plt.savefig(barchart)
+# plt.savefig(barchart)
+
+# table ==========================
+fig, ax = plt.subplots(figsize=(23,5))
+ax.axis('off')  # hide axes
+
+# create
+table = ax.table(
+    cellText=top_cars.values,
+    colLabels=top_cars.columns,
+    cellLoc='center',
+    loc='center')
+
+# style
+table.auto_set_font_size(False)
+table.set_fontsize(7)
+
+# export table to output folder
+tbl = get_data.export("output","table.png")
+plt.savefig(tbl, bbox_inches='tight', dpi=300)
