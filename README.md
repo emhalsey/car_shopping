@@ -29,7 +29,7 @@ I used the pandas `.merge()` function to merge car models from the fuel economy 
 
 ### 4. Ranking & Multi-Attribute Decision Analysis
 
-Finally, I ranked the factors according to their importance—saftey rating being the most important, followed by mpg second, then value per mile (price/mileage) third. I looked at the top 20 results, their factors, and yes—their appearances because I'm shallow at heart, then decided which one I'd be buying.
+Finally, I ranked the factors according to their importance—saftey rating being the most important, followed by value per mile (price/mileage) second, then mpg third. I looked at the top 20 results, their factors, and yes—their appearances because I'm shallow at heart, then decided which one I'd be buying.
 
 Pretty simple car buying process, am I right?
 
