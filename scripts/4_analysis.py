@@ -61,22 +61,19 @@ scaled_features = scaler.fit_transform(
                'NUM_OF_SEATING',
                'comb08',
                'Avg_Value_per_mile',
-               'youSaveSpend',
                'ROLLOVER_STARS']])
 scaled_df = pd.DataFrame(scaled_features,
             columns=['OVERALL_STARS',
                      'NUM_OF_SEATING',
                      'comb08',
-                     'Avg_Value_per_mile',
-                     'youSaveSpend',
+                     'Avg_Value_per_mile',    
                      'ROLLOVER_STARS'])
 
 weights = {
     'OVERALL_STARS': 0.25,
-    'NUM_OF_SEATING': 0.15,
+    'NUM_OF_SEATING': 0.20,
     'comb08': 0.35,
     'Avg_Value_per_mile': 0.15,
-    'youSaveSpend': 0.05,
     'ROLLOVER_STARS': 0.05
 }
 
@@ -85,7 +82,6 @@ scaled_df['utility_score'] = (
     scaled_df['NUM_OF_SEATING'] * weights['NUM_OF_SEATING'] +
     scaled_df['comb08'] * weights['comb08'] +
     scaled_df['Avg_Value_per_mile'] * weights['Avg_Value_per_mile']+
-    scaled_df['youSaveSpend'] * weights['youSaveSpend']+
     scaled_df['ROLLOVER_STARS'] * weights['ROLLOVER_STARS']
 )
 
