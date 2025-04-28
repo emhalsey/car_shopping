@@ -23,7 +23,6 @@ merged_df = merged_df[[
     'OVERALL_STARS',
     'NUM_OF_SEATING',
     'comb08',
-    'Avg_Value_per_mile',
     'Avg_Price',
     'Avg_Mileage',
     'youSaveSpend',
@@ -38,10 +37,12 @@ import numpy as np
 def parse_seating(value):
     if pd.isnull(value):
         return np.nan
-    numbers = re.findall(r'\d+', str(value)) # extract numbers from strings
+    numbers = re.findall(r'\d+', str(value))
     if numbers:
-        nums = list(map(int, numbers))
-        return sum(nums) / len(nums)
+        # only keep numbers between 1 and 12 (reasonable car seating)
+        nums = [int(n) for n in numbers if 1 <= int(n) <= 12]
+        if nums:
+            return sum(nums) / len(nums)
     return np.nan
 
 merged_df['NUM_OF_SEATING'] = merged_df['NUM_OF_SEATING'].apply(parse_seating)
@@ -56,80 +57,62 @@ scaled_features = scaler.fit_transform(
     merged_df[['OVERALL_STARS',
                'NUM_OF_SEATING',
                'comb08',
-               'Avg_Value_per_mile',
-               'ROLLOVER_STARS']])
+               'Avg_Price',
+               'ROLLOVER_POSSIBILITY']])
 scaled_df = pd.DataFrame(scaled_features,
             columns=['OVERALL_STARS',
                      'NUM_OF_SEATING',
                      'comb08',
-                     'Avg_Value_per_mile',    
-                     'ROLLOVER_STARS'])
+                     'Avg_Price',
+                     'ROLLOVER_POSSIBILITY'])
 
 weights = {
-    'OVERALL_STARS': 0.25,
-    'NUM_OF_SEATING': 0.20,
-    'comb08': 0.35,
-    'Avg_Value_per_mile': 0.15,
-    'ROLLOVER_STARS': 0.05
+    'OVERALL_STARS': 0.29,
+    'NUM_OF_SEATING': 0.30,
+    'comb08': 0.29,
+    'Avg_Price': 0.02,
+    'ROLLOVER_POSSIBILITY': 0.10
 }
+
+# smaller values are preferred
+scaled_df['Avg_Price'] = 1 - scaled_df['Avg_Price']
+scaled_df['ROLLOVER_POSSIBILITY'] = 1 - scaled_df['ROLLOVER_POSSIBILITY']
 
 scaled_df['utility_score'] = (
     scaled_df['OVERALL_STARS'] * weights['OVERALL_STARS'] +
     scaled_df['NUM_OF_SEATING'] * weights['NUM_OF_SEATING'] +
     scaled_df['comb08'] * weights['comb08'] +
-    scaled_df['Avg_Value_per_mile'] * weights['Avg_Value_per_mile']+
-    scaled_df['ROLLOVER_STARS'] * weights['ROLLOVER_STARS']
+    scaled_df['Avg_Price'] * weights['Avg_Price'] +
+    scaled_df['ROLLOVER_POSSIBILITY'] * weights['ROLLOVER_POSSIBILITY']
 )
 
 ranked_cars = merged_df.copy()
 ranked_cars['utility_score'] = scaled_df['utility_score']
 ranked_cars = ranked_cars.sort_values(by='utility_score', ascending=False)
 
-# print(ranked_cars.head(20))
-
 # export data to output folder
 final = get_data.export("output","ranked.csv")
 ranked_cars.to_csv(final, index=False)
 
-# ========================== VISUALIZATION ==========================
-import seaborn as sns
-import matplotlib.pyplot as plt
+# ========================== VIZ W/ PYGAL ==========================
+import pygal
 
 # filter duplicates and drop rows with missing values
 ranked_cars = ranked_cars.dropna(subset=['car_key', 'utility_score'])
 ranked_cars = ranked_cars.drop_duplicates(subset=['car_key'])
 
-top_cars = ranked_cars.head(10).round(1)
+top_cars = ranked_cars.head(10)
+
+# print(top_cars)
 
 # bar graph ==========================
-plt.figure(figsize=(12,6))
-sns.barplot(data=top_cars, x='car_key', y='utility_score')
-plt.title('Top 10 Cars by Utility Score')
 
-# rotate x-axis labels for better readability
-plt.xticks(rotation=45, ha='right')
-plt.tight_layout()
-# plt.show()
+horizontal_chart = pygal.HorizontalBar()
+horizontal_chart.title = "Top 10 Cars by Utility Score"
+
+for index, row in top_cars.iterrows():
+    horizontal_chart.add(row['car_key'], row['utility_score'])
 
 # export graph to output folder
-barchart = get_data.export("output","ranked.png")
-plt.savefig(barchart)
-
-# table ==========================
-fig, ax = plt.subplots(figsize=(23,5))
-ax.axis('off')  # hide axes
-
-# create
-table = ax.table(
-    cellText=top_cars.values,
-    colLabels=top_cars.columns,
-    cellLoc='center',
-    loc='center')
-
-# style
-table.auto_set_font_size(False)
-table.set_fontsize(7)
-
-# export table to output folder
-tbl = get_data.export("output","table.png")
-plt.savefig(tbl, bbox_inches='tight', dpi=300)
+graph = get_data.export("output","ranked.svg")
+horizontal_chart.render_to_file(graph)
