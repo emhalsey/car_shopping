@@ -94,7 +94,7 @@ ranked_cars = ranked_cars.sort_values(by='utility_score', ascending=False)
 final = get_data.export("output","ranked.csv")
 ranked_cars.to_csv(final, index=False)
 
-# ========================== VIZ W/ PYGAL ==========================
+# ========================== VISUALIZATION ==========================
 import pygal
 
 # filter duplicates and drop rows with missing values
